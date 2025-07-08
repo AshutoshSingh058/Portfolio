@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashutosh Singh</title>
+    <meta name="description" content="Portfolio of Ashutosh Singh, Web Developer experienced in MERN stack, React.js, and scalable web applications.">
+    <meta name="keywords" content="Ashutosh Singh, developer, portfolio, MERN, React.js, web development, frontend, backend, Python, JavaScript">
+    <meta name="author" content="Ashutosh Singh">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Metropolis:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+    <div class="reading-progress"></div>
+
+    <nav class="navigation">
+        <div class="nav-container">
+            <a href="#about" class="nav-link">about</a>
+            <a href="#projects" class="nav-link">projects</a>
+            <a href="#skills" class="nav-link">skills</a>
+            <a href="#responsibility" class="nav-link">experience</a>
+            <a href="#contact" class="nav-link">contact</a>
+        </div>
+    </nav>
+
+    <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+        <span class="toggle-text">dark</span>
+    </button>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <span class="back-to-top-icon">↑</span>
+    </button>
+
+    <header class="header fade-in" style="display: flex; align-items: center; gap: 36px; flex-wrap: wrap; justify-content: center;">
+        <img src="./my-photo.png" alt="Ashutosh Singh Full Length" class="profile-image" style="height: 320px; width: auto; border-radius: 18px; box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10); object-fit: cover; background: #f3f3f3; flex-shrink: 0;" />
+        <div style="flex: 1; min-width: 220px;">
+            <h1 class="name">Ashutosh Singh<span class="typing-indicator"></span></h1>
+            <p class="title">Web Developer | MERN Stack | ML Enthusiast</p>
+            <div class="contact">
+                <a href="mailto:singhash058@gmail.com">mail</a>
+                <a href="https://github.com/AshutoshSingh058">github</a>
+                <a href="https://linkedin.com/in/ashutoshsingh058">linkedin</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section fade-in">
+            <h2 class="section-title">About</h2>
+            <p class="about">
+                Enthusiastic Web Developer with hands-on experience in building responsive and scalable web applications using the MERN stack. Strong understanding of frontend libraries (React.js, Tailwind CSS), RESTful APIs, and Git-based collaboration. Passionate about clean UI/UX, open source, and solving real-world problems through tech. Actively contributed to community-driven workshops and hackathons.
+            </p>
+        </section>
+
+        <section id="projects" class="section fade-in">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img class="project-image" src="story.png" alt="Text-to-Story Generator Screenshot" />
+                    <div class="project-header">
+                        <div class="project-name">Text-to-Story Generator</div>
+                        <div class="project-tech">React, LLM API (OpenAI or similar)</div>
+                    </div>
+                    <div class="project-description">
+                        Interactive web app that generates personalized stories based on user inputs like genre, length, and theme using a language model API.
+                    </div>
+                    <div class="project-buttons">
+                        <a class="project-btn" href="https://github.com/AshutoshSingh058/Text-to-Story" target="_blank">GitHub</a>
+                        <a class="project-btn" href="https://text-to-story.vercel.app/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img class="project-image" src="bot-detection.jpg" alt="Social Media Bot Detection Screenshot" />
+                    <div class="project-header">
+                        <div class="project-name">Social Media Bot Detection</div>
+                        <div class="project-tech">Python,TensorFlow, NLP, Streamlit, Deep Learning (RNN/LSTM)</div>
+                    </div>
+                    <div class="project-description">
+                        Uses deep learning to detect bots in social media datasets and outputs prediction with confidence scores.
+                        <div><span class="project-tag"><b>HACK IIT-Kanpur Project</b></span></div>
+                    </div>
+                    <div class="project-buttons">
+                        <a class="project-btn" href="https://github.com/AshutoshSingh058/BotDetection" target="_blank">GitHub</a>
+                        <a class="project-btn" href="https://huggingface.co/spaces/ASHUT0SH-SiNGH/BotDetection?logs=container" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img class="project-image" src="notes.png" alt="Smart Notes Web App Screenshot" />
+                    <div class="project-header">
+                        <div class="project-name">Smart Notes Web App</div>
+                        <div class="project-tech">React, JavaScript, HTML, CSS, LocalStorage</div>
+                    </div>
+                    <div class="project-description">
+                        A modern web application for creating, editing, and organizing notes with a clean UI, instant search, and persistent storage. Built for productivity and ease of use.
+                    </div>
+                    <div class="project-buttons">
+                        <a class="project-btn" href="https://github.com/AshutoshSingh058/Notes" target="_blank">GitHub</a>
+                        <a class="project-btn" href="#" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img class="project-image" src="tic-tac-toe.png" alt="Tic Tac Toe Game Screenshot" />
+                    <div class="project-header">
+                        <div class="project-name">Tic Tac Toe Game</div>
+                        <div class="project-tech">HTML, CSS, JavaScript</div>
+                    </div>
+                    <div class="project-description">
+                        Classic two-player game with dynamic UI interactions, deployed via GitHub Pages.
+                    </div>
+                    <div class="project-buttons">
+                        <a class="project-btn" href="https://github.com/AshutoshSingh058/Tic-Tac-Toe" target="_blank">GitHub</a>
+                        <a class="project-btn" href="https://ashutoshsingh058.github.io/Tic-Tac-Toe/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                <div class="hidden-projects" style="display:none;">
+                    <div class="project">
+                        <img class="project-image" src="sentiment.jpeg" alt="Cricket Tweet Sentiment Analysis Screenshot" />
+                        <div class="project-header">
+                            <div class="project-name">Cricket Tweet Sentiment Analysis</div>
+                            <div class="project-tech">Python, BERT, SMOTE, NLP</div>
+                        </div>
+                        <div class="project-description">
+                            Achieved 86% accuracy on 5-class sentiment analysis of 50K cricket tweets using BERT. Boosted minority class F1-score by 18% via SMOTE-based balancing. Improved model performance by 22% using NLP preprocessing and model comparison (BERT, LSTM, RF).
+                            <div><span class="project-tag"><b>Research Project</b></span></div>
+                        </div>
+                        <div class="project-buttons">
+                            <a class="project-btn" href="https://github.com/AshutoshSingh058/Social_Media_Sentiment_Analysis" target="_blank">GitHub</a>
+                            <a class="project-btn" href="https://github.com/AshutoshSingh058/Social_Media_Sentiment_Analysis" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project">
+                        <img class="project-image" src="streamlit-UI.png" alt="Streamlit UI Prototyping Demo Screenshot" />
+                        <div class="project-header">
+                            <div class="project-name">Streamlit UI Prototyping Demo</div>
+                            <div class="project-tech">Streamlit, Python, Google Colab</div>
+                        </div>
+                        <div class="project-description">
+                            Demonstrates frontend layout and interactive components using Streamlit for prototyping.
+                        </div>
+                        <div class="project-buttons">
+                            <a class="project-btn" href="#" target="_blank">GitHub</a>
+                            <a class="project-btn" href="#" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img class="project-image" src="dash.png" alt="Household Consumer Expenditure Dashboard Screenshot" />
+                        <div class="project-header">
+                            <div class="project-name">Household Consumer Expenditure Dashboard</div>
+                            <div class="project-tech">Flourish, Python (data prep)</div>
+                        </div>
+                        <div class="project-description">
+                            Visual dashboard built to analyze and present household consumption trends from large-scale survey data.
+                        </div>
+                        <div class="project-buttons">
+                            <a class="project-btn" href="https://github.com/AshutoshSingh058/MOSPI-GOV-Site-HCES" target="_blank">GitHub</a>
+                            <a class="project-btn" href="https://drive.google.com/file/d/1sl04bzyXzocKMXfzDcBmNSXEUBO0MT3e/view?usp=sharing" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img class="project-image" src="metro.png" alt="Metro Network Planner Screenshot" />
+                        <div class="project-header">
+                            <div class="project-name">Metro Network Planner</div>
+                            <div class="project-tech">C++</div>
+                        </div>
+                        <div class="project-description">
+                            Console-based tool that designs cost-efficient metro routes using Kruskal’s and Prim’s algorithms; includes graph visualization and file I/O.
+                        </div>
+                        <div class="project-buttons">
+                            <a class="project-btn" href="https://github.com/AshutoshSingh058/Efficient-Metro-Network-Planning" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img class="project-image" src="network.jpeg" alt="Social Network Mini Project Screenshot" />
+                        <div class="project-header">
+                            <div class="project-name">Social Network Mini Project</div>
+                            <div class="project-tech">C++</div>
+                        </div>
+                        <div class="project-description">
+                            Basic terminal-based social networking platform with user profiles, friend requests, and message simulation.
+                        </div>
+                        <div class="project-buttons">
+                            <a class="project-btn" href="https://github.com/AshutoshSingh058/NetMet" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img class="project-image" src="ais.jpeg" alt="AIS & Satellite-Based Maritime Monitoring Screenshot" />
+                        <div class="project-header">
+                            <div class="project-name">AIS & Satellite-Based Maritime Monitoring</div>
+                            <div class="project-tech">CNN, QGIS, SNAP, AIS Data, SAR Images</div>
+                        </div>
+                        <div class="project-description">
+                            Integrates satellite and AIS data for oil spill detection, real-time monitoring, and anomaly classification.
+                            <div><span class="project-tag"><b>SIH Project</b></span></div>
+                        </div>
+                        <div class="project-buttons">
+                            <a class="project-btn" href="#" target="_blank">GitHub</a>
+                            <a class="project-btn" href="#" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top: 24px;">
+                <button class="project-btn" id="viewMoreBtn" style="font-size:1.08rem; padding:10px 32px;">View More</button>
+            </div>
+            <script>
+                const viewMoreBtn = document.getElementById('viewMoreBtn');
+                const hiddenProjects = document.querySelector('.hidden-projects');
+                let expanded = false;
+                viewMoreBtn.onclick = function() {
+                    expanded = !expanded;
+                    hiddenProjects.style.display = expanded ? 'block' : 'none';
+                    viewMoreBtn.textContent = expanded ? 'View Less' : 'View More';
+                };
+            </script>
+        </section>
+
+        <section id="skills" class="section fade-in">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C/C++</li>
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>React.js</li>
+                        <li>Tailwind CSS</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>REST APIs</li>
+                        <li>JWT Auth</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Dev Tools & Platforms</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Postman</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Coursework</h3>
+                    <ul>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Object-Oriented Programming</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="responsibility" class="section fade-in">
+            <h2 class="section-title">Positions of Responsibility</h2>
+            <div class="responsibility-list">
+                <div class="responsibility-item">
+                    <h3>Google Developer Groups (GDG), AIT</h3>
+                    <p>Core Member (Junior Lead role) </p>
+                    <ul>
+                        <li>Collaborated with a team of 20+ developers to organize workshops and hands-on sessions on modern web technologies like React.js, Node.js, and REST APIs.</li>
+                        <li>Facilitated coding bootcamps for 100+ attendees, focusing on Git, GitHub, Open Source contributions.</li>
+                        <li>Contributed to the planning and execution of Enliven Hackathon (March 2025), which attracted 600+ teams tackling real-world web-based challenges.</li>
+                    </ul>
+                </div>
+                <br/>
+                <div class="responsibility-item">
+                    <h3>Cultural Board, AIT</h3>
+                    <p>Joint Secretary </p>
+                    <ul>
+                        <li>Managed logistics and operations for large-scale events with 2000+ attendees.</li>
+                        <li>Collaborated with 50+ members to ensure seamless execution of cultural programs.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section fade-in">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-section">
+                <div class="contact-info">
+                    <p>Have a project in mind or just want to chat about tech? I'd love to hear from you!</p>
+                    <div class="contact-links">
+                        <a href="mailto:singhash058@gmail.com" class="contact-link">
+                            <span class="contact-icon">✉</span>
+                            <span>singhash058@gmail.com</span>
+                        </a>
+                        <a href="https://github.com/AshutoshSingh058" class="contact-link" target="_blank">
+                            <span class="contact-icon">🐱</span>
+                            <span>github.com/AshutoshSingh058</span>
+                        </a>
+                        <a href="https://linkedin.com/in/ashutoshsingh058" class="contact-link" target="_blank">
+                            <span class="contact-icon">💼</span>
+                            <span>linkedin.com/in/ashutoshsingh058</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        <span class="button-text">send message</span>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer fade-in">
+        <p>copyright 2025. made by Ashutosh Singh. crafted with code & curiosity.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
