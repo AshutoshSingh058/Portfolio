@@ -5,9 +5,13 @@ A personal website showcasing my portfolio, skills, and experiences.
 👋 Hi, I'm Ashutosh Singh
 
 🎓 Computer Engineering student at AIT Pune
+
 💡 Interested in machine learning, software development, and innovation
+
 🛠️ I build projects using C++, Python, React, Node.js
+
 📊 Love data-driven development and real-world problem solving
+
 🔍 Always learning and exploring new technologies
 
 
