@@ -1,52 +1,25 @@
 ## 📝 Description
 A personal website showcasing my portfolio, skills, and experiences.
 
-## 📑 Table of Contents
-- [Installation](#installation) 🔧
-- [Usage](#usage) 🖥️
-- [Features](#features) ✨
-- [Contributing](#contributing) 🤝
-- [License](#license) 📄
+🚀 About Me
+👋 Hi, I'm Ashutosh Singh
 
-## 🏆 Notable Achievements
-1) My website has been officially certified by Google!
-2) My website has been mentioned in the [Github's Most Famous Portfolio Repository!](https://github.com/emmabostian/developer-portfolios)
+🎓 Computer Engineering student at AIT Pune
+💡 Interested in machine learning, software development, and innovation
+🛠️ I build projects using C++, Python, React, Node.js
+📊 Love data-driven development and real-world problem solving
+🔍 Always learning and exploring new technologies
 
-## 🔧 Installation
-```bash
-# Clone the repository
-git clone https://github.com/Aarav2709/AarusPortfolio.git
 
-# Navigate to the project directory
-cd AarusPortfolio
 
-# Install dependencies
-npm install
-```
+🛠️ Tech Stack
+C++ | Python | JavaScript | React | Node.js | MongoDB | SQL | Machine Learning
 
-## 🖥️ Usage
-```bash
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
-```
 
 ## ✨ Features
 - 📱 Responsive design
 - 🎨 Portfolio showcase
 - 🌓 Dark/Light mode toggle
-
-## 🤝 Contributing
-1. 🍴 Fork the project
-2. 🌿 Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. 💾 Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. 🚀 Push to the branch (`git push origin feature/amazing-feature`)
-5. 📬 Open a Pull Request
 
 ## 📄 License
 Distributed under the MIT License. See `LICENSE` for more information.
